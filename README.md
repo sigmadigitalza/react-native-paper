@@ -1,3 +1,5 @@
+## WIP - Use at your own risk.
+
 <p align="center">
   <img alt="react-native-paper" src="docs/assets/images/paper-logo.svg?sanitize=true" width="300">
 </p>

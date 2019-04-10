@@ -1,5 +1,5 @@
 {
-  "name": "react-native-paper",
+  "name": "@sigmadigital/react-native-paper",
   "version": "2.15.2",
   "description": "Material design for React Native",
   "main": "src/index.js",
@@ -14,14 +14,14 @@
   "sideEffects": false,
   "repository": {
     "type": "git",
-    "url": "https://github.com/callstack/react-native-paper.git"
+    "url": "https://github.com/sigmadigitalza/react-native-paper"
   },
   "author": "",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/callstack/react-native-paper/issues"
+    "url": "https://github.com/sigmadigitalza/react-native-paper/issues"
   },
-  "homepage": "https://callstack.github.io/react-native-paper",
+  "homepage": "https://github.com/sigmadigitalza/react-native-paper",
   "keywords": [
     "android",
     "ios",
@@ -97,12 +97,6 @@
   },
   "resolutions": {
     "**/babel-core": "7.0.0-bridge.0"
-  },
-  "husky": {
-    "hooks": {
-      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS",
-      "pre-commit": "yarn lint && yarn flow check && yarn typescript && yarn test"
-    }
   },
   "jest": {
     "preset": "react-native",
